@@ -21,9 +21,9 @@ app.get('/authorize', async (c) => {
 	return renderApprovalDialog(c.req.raw, {
 		client: await c.env.OAUTH_PROVIDER.lookupClient(clientId),
 		server: {
-			name: "Cloudflare GitHub MCP Server",
-			logo: "https://avatars.githubusercontent.com/u/314135?s=200&v=4",
-			description: 'This is a demo MCP Remote Server using GitHub for authentication.', // optional
+			name: "Up-To-Date-Documenation MCP Server",
+			logo: "https://avatars.githubusercontent.com/oa/2991733?s=240&u=03f2c750a37a746f252d9eeccea7c4d33a10f6c7&v=4",
+			description: 'This is a MCP Remote Server using GitHub for authentication.', // optional
 		},
 		state: { oauthReqInfo }, // arbitrary data that flows through the form submission below
 	})
