@@ -29,7 +29,7 @@
 	"kv_namespaces": [
 		{
 			"binding": "OAUTH_KV",
-			"id": "<Add-KV-ID>"
+			"id": "53ddb24c5c434e83b2f00af40a417701"
 		}
 	],
 	"ai": {
@@ -39,7 +39,7 @@
 		"enabled": true
 	},
 	"dev": {
-		"port": 8788
+		"port": 8787
 	}
 	/**
 	 * Smart Placement
